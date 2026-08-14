@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Grocery</title>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home / View Data</a>
+        <a href="add.html">Add New Data</a>
+        <a href="modify.html">Modify Existing Data</a>
+    </nav>
+
+    <h2>Add New Grocery</h2>
+
+    <form id="addGroceryForm">
+        <label>Product Name:</label><br>
+        <input type="text" id="product_name" required><br><br>
+
+        <label>Category:</label><br>
+        <input type="text" id="category" required><br><br>
+
+        <label>Price:</label><br>
+        <input type="text" id="price" required><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="text" id="quantity" required><br><br>
+
+        <button type="submit">Add Grocery</button>
+    </form>
+
+    <script src="./js/postGroceries.js"></script>
+
+</body>
+</html>
