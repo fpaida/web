@@ -1,0 +1,83 @@
+/* =========================================
+   CMPS262 Grocery Web Application
+   Author: Fabrice Paida
+   ========================================= */
+
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f5;
+    color: #333333;
+}
+
+/* Main page content */
+.container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Page headings */
+h1, h2 {
+    color: #2e7d32;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #2e7d32;
+    padding: 16px 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Grocery form */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 450px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form labels */
+form label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+/* Form input fields */
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Form button */
+form button {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1b5e20;
+}

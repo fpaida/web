@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Modify Grocery</title>
+    <link href="./stylesheets/hometheme.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,30 +14,35 @@
         <a href="modify.html">Modify Existing Data</a>
     </nav>
 
-    <h2>Modify Existing Grocery</h2>
+    <div class="container">
 
-    <form id="modifyGroceryForm">
+        <h2>Modify Existing Grocery</h2>
 
-        <label>Product ID:</label><br>
-        <input type="text" id="product_id" required><br><br>
+        <form id="modifyGroceryForm">
 
-        <label>Product Name:</label><br>
-        <input type="text" id="product_name" required><br><br>
+            <label>Product ID:</label><br>
+            <input type="text" id="product_id" required><br><br>
 
-        <label>Category:</label><br>
-        <input type="text" id="category" required><br><br>
+            <label>Product Name:</label><br>
+            <input type="text" id="product_name" required><br><br>
 
-        <label>Price:</label><br>
-        <input type="text" id="price" required><br><br>
+            <label>Category:</label><br>
+            <input type="text" id="category" required><br><br>
 
-        <label>Quantity:</label><br>
-        <input type="text" id="quantity" required><br><br>
+            <label>Price:</label><br>
+            <input type="text" id="price" required><br><br>
 
-        <button type="submit">Update Grocery</button>
+            <label>Quantity:</label><br>
+            <input type="text" id="quantity" required><br><br>
 
-    </form>
+            <button type="submit">Update Grocery</button>
+
+        </form>
+
+    </div>
 
     <script src="./js/putGroceries.js"></script>
 
 </body>
+
 </html>
