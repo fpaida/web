@@ -19,7 +19,7 @@ document.getElementById("addGroceryForm").addEventListener("submit", function(ev
     })
     .then(response => response.json())
     .then(data => {
-        alert("Grocery added successfully!");
+        alert("Record has been saved.");
         document.getElementById("addGroceryForm").reset();
     })
     .catch(error => {
